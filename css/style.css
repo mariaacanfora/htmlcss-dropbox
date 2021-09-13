@@ -77,9 +77,9 @@ nav{
     position: fixed;
     top: 0;
     left: 0;
-    padding-top: 5px;
+    padding: 20px 0;
+    z-index: 99;
 }
-
 
 h1{
  font-size: 77px;   
@@ -91,11 +91,13 @@ h2{
 
 h3{
     font-size: 25px;
+    padding-bottom: 10px;
 }
 
 h4, 
 h5{
     font-size: 16px;
+    padding-bottom: 10px;
 }
 
 /********************************************************************/
@@ -133,7 +135,7 @@ header nav ul li a img{
 
 
 /********************************************************************/
-/* UTILITIES */
+/*  */
 /********************************************************************/
 .clearfix::after{
     content: "";
@@ -141,8 +143,16 @@ header nav ul li a img{
     clear: both;
 }
 
+/* HEADER */
+.bg-color{
+    background-color: #B4D0E7;
+}
+
 .hero-section{
-  
+    padding-top: 50px;
+    min-height: 300px;
+    position: relative;
+    top: 100px;
 }
 
 .hero-section .details{
@@ -166,21 +176,97 @@ header nav ul li a img{
     padding-right: 60px;
 }
 
-
-.bg-color{
-    background-color: #B4D0E7;
-}
-
-.hero-section{
-    padding-top: 50px;
-    min-height: 300px;
-    position: relative;
-    top: 100px;
-}
-
 .hero-section .row{
     margin-top: 40px;
 }
+
+/* MAIN */
+.section-padding{
+    padding-top: 200px;
+}
+
+.radio-btn{
+    padding-top: 50px;
+}
+
+.radio-btn ul li{
+    display: inline-block;
+    padding-right: 15px;
+}
+
+.column-container{
+    padding-top: 40px;
+}
+
+.column{
+    border: 1px solid #D9D9DC;
+    min-height: 1150px;
+    width: 85%;
+}
+
+.column .column-title{
+    text-align: center;
+    border-bottom: 1px solid #D9D9DC;
+    padding: 10px 0;
+}
+
+.column-box{
+    padding: 30px;
+    font-size: 14px;
+}
+
+.column-box span{
+    display: block;
+}
+
+.column-box ul{
+    list-style: none;
+}
+
+.column-box ul li{
+    padding: 15px 0;
+}
+.column-box a{
+    display: inline-block;
+    text-align: center;
+}
+
+.column-box span{
+    padding-top: 25px;
+}
+
+.little-border{
+    margin-top: 25px;
+    width: 20%;
+    color: #D9D9DC;
+}
+
+.column-box #check-icon{
+    color: #0061FF;
+}
+
+.column-box ul li div{
+    float: left;
+}
+
+.column-box ul li{
+    width: 100%;
+}
+
+.column-box ul li .check-icon{
+    display: inline-block;
+    width: 5%;
+    vertical-align: top;
+}
+
+.column-box ul li .li-text{
+    width: 95%;
+    display: inline-block;
+    padding-left: 5px;
+
+}
+
+/********************************************************************/
 
 .btn{
     text-decoration: none;
@@ -193,7 +279,7 @@ header nav ul li a img{
 }
 
 .btn-large{
-    padding: 10px 25px;
+    width: 100%;
 }
 
 .btn-white{
