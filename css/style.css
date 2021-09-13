@@ -15,14 +15,138 @@ body{
 /********************************************************************/
 /* LAYOUT */
 /********************************************************************/
+.container-large {
+    max-width: 1367px;
+    width: 100%;
+    margin: auto;
+}
+  
+.container {
+    max-width: 1010px;
+    width: 100%;
+    margin: auto;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+[class*="col_"]{
+    float: left;
+}
+
+.col_1_9{
+    width: calc(100% / 9);
+}
+
+.col_2_9{
+    width: calc(100% / 9 * 2);
+}
+
+.col_3_9{
+    width: calc(100% / 9 * 3);
+}
+
+.col_4_9{
+    width: calc(100% / 9 * 4);
+}
 
 
+.col_5_9{
+    width: calc(100% / 9 * 5);
+}
 
-/********************************************************************/
-/* UTILITIES */
-/********************************************************************/
+.col_6_9{
+    width: calc(100% / 9 * 6);
+}
 
 
 /********************************************************************/
 /* TAG */
 /********************************************************************/
+nav{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 5px;
+}
+
+nav > div{
+    width: 50%;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+header nav ul{
+    margin-right:20px;
+    list-style: none;
+    display: inline-block;
+}
+
+header nav ul li{
+    display: inline-block;
+}
+
+header nav ul li a{
+    display: inline-block;
+    padding: 0 20px;
+    text-decoration: none;
+    color: black;
+    
+}
+
+header nav ul li a.btn{
+    margin-left: 20px;
+}
+
+header nav ul li a img{
+    vertical-align: middle;
+}
+
+
+/********************************************************************/
+/* */
+/********************************************************************/
+
+/********************************************************************/
+/* */
+/********************************************************************/
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.float-right{
+    text-align: right;
+    float: right;
+}
+
+.bg-color{
+    background-color: #B4D0E7;
+}
+
+.hero-section{
+    min-height: 300px;
+}
+
+.btn{
+    color: white;
+    background-color: #0061FF;
+    padding: 7px 20px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.btn-large{
+    padding: 10px 25px;
+}
+
+.btn-white{
+    background-color: white;
+    color: black;
+    border: 1px solid;
+}
