@@ -62,11 +62,17 @@ body{
     width: calc(100% / 9 * 6);
 }
 
+.float-right{
+    text-align: right;
+    float: right;
+}
+
 
 /********************************************************************/
 /* TAG */
 /********************************************************************/
 nav{
+    background-color: white;
     width: 100%;
     position: fixed;
     top: 0;
@@ -74,6 +80,25 @@ nav{
     padding-top: 5px;
 }
 
+
+h1{
+ font-size: 77px;   
+}
+
+h2{
+    font-size: 40px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+h4, 
+h5{
+    font-size: 16px;
+}
+
+/********************************************************************/
 nav > div{
     width: 50%;
     margin-top: 5px;
@@ -108,11 +133,7 @@ header nav ul li a img{
 
 
 /********************************************************************/
-/* */
-/********************************************************************/
-
-/********************************************************************/
-/* */
+/* UTILITIES */
 /********************************************************************/
 .clearfix::after{
     content: "";
@@ -120,20 +141,50 @@ header nav ul li a img{
     clear: both;
 }
 
-.float-right{
-    text-align: right;
-    float: right;
+.hero-section{
+  
 }
+
+.hero-section .details{
+    padding-bottom: 20px;
+}
+
+.hero-section .secondary-details{
+    display: block;
+    padding: 10px 0 30px;
+}
+
+.hero-section .icon{
+    font-size: 35px;
+}
+
+.hero-section .hero-img{
+    width: 100%;
+}
+
+.hero-section .column-padding{
+    padding-right: 60px;
+}
+
 
 .bg-color{
     background-color: #B4D0E7;
 }
 
 .hero-section{
+    padding-top: 50px;
     min-height: 300px;
+    position: relative;
+    top: 100px;
+}
+
+.hero-section .row{
+    margin-top: 40px;
 }
 
 .btn{
+    text-decoration: none;
+    display: inline-block;
     color: white;
     background-color: #0061FF;
     padding: 7px 20px;
