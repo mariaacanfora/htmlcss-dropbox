@@ -271,10 +271,16 @@ header nav ul li a img{
 .section-border{
     border: 1px solid #D9D9DC;
     min-height: 200px;
+    margin-bottom: 150px;
 }
 
 .column-box.column-text{
     padding-top: 0;
+    padding-bottom: 0;
+}
+
+.section-img{
+    width: 95%;
 }
 
 /********************************************************************/
