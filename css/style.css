@@ -186,10 +186,6 @@ header nav ul li a img{
     padding-bottom: 50px;
 }
 
-/* .section-padding.row h2{
-    padding-left: 15px;
-} */
-
 .radio-btn{
     padding-top: 50px;
 }
@@ -211,12 +207,11 @@ header nav ul li a img{
 .column{
     border: 1px solid #D9D9DC;
     min-height: 1150px;
-    /* width: 85%; */
     padding-bottom: 100px;
     margin: 0 20px;
 }
 
-/* .column  */.column-title{
+.column-title{
     text-align: center;
     border-bottom: 1px solid #D9D9DC;
     padding: 10px 0;
@@ -234,10 +229,15 @@ header nav ul li a img{
 .column-box ul{
     list-style: none;
 }
-
-.column-box ul li{
-    padding: 15px 0;
+ .column-box ul li{
+    padding-left: 16px;
+    margin-bottom: 25px;
 }
+
+.column-box ul li i{
+    margin-left: -16px;
+}
+
 .column-box a{
     display: inline-block;
     text-align: center;
@@ -261,30 +261,19 @@ header nav ul li a img{
     float: left;
 }
 
-.column-box ul li{
-    width: 100%;
-}
-
-.column-box ul li .check-icon{
-    display: inline-block;
-    width: 5%;
-    vertical-align: top;
-}
-
-.column-box ul li .li-text{
-    width: 95%;
-    display: inline-block;
-    padding-left: 5px;
-
-}
 
 .section-border{
     border: 1px solid #D9D9DC;
     min-height: 200px;
+}
+
+.section-margin{
     margin-bottom: 150px;
 }
 
-
+.section-border.section-margin{
+    padding-bottom: 30px;
+}
 
 .column-box.column-text{
     padding-top: 0;
@@ -299,8 +288,16 @@ header nav ul li a img{
     width: 100%;
 }
 
+.column-link{
+    color: #0061FF;    
+}
+
 .column-box.column-text .column-link{
     color: black;
+}
+
+.column-link{
+
 }
 /********************************************************************/
 
