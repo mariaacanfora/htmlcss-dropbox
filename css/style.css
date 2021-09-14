@@ -274,6 +274,8 @@ header nav ul li a img{
     margin-bottom: 150px;
 }
 
+
+
 .column-box.column-text{
     padding-top: 0;
     padding-bottom: 0;
@@ -283,6 +285,13 @@ header nav ul li a img{
     width: 95%;
 }
 
+.column-img{
+    width: 100%;
+}
+
+.column-box.column-text .column-link{
+    color: black;
+}
 /********************************************************************/
 
 .btn{
