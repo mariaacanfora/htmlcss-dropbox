@@ -186,6 +186,10 @@ header nav ul li a img{
     padding-bottom: 50px;
 }
 
+/* .section-padding.row h2{
+    padding-left: 15px;
+} */
+
 .radio-btn{
     padding-top: 50px;
 }
@@ -199,11 +203,17 @@ header nav ul li a img{
     padding-top: 40px;
 }
 
+.column-container.row{
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
 .column{
     border: 1px solid #D9D9DC;
     min-height: 1150px;
     /* width: 85%; */
     padding-bottom: 100px;
+    margin: 0 20px;
 }
 
 /* .column  */.column-title{
