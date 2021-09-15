@@ -273,7 +273,7 @@ header nav ul li a img{
     color: #0061FF;
 }
 
-.column-box ul li div{
+.column-container.row .col_3_9 .column .column-box ul li div{
     float: left;
 }
 
