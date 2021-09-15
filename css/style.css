@@ -452,7 +452,7 @@ main > .container > .section-padding:last-child {
 /********************************************************************/
 /*  */
 /********************************************************************/
-.li-text{
+.faq-text{
     width: 100%;
     overflow: hidden;
     height: 0;
@@ -463,7 +463,7 @@ main > .container > .section-padding:last-child {
     transition: transform .3s;
 }
 
-.faq-container:focus .li-text{
+.faq-container:focus .faq-text{
     display: block;
     height: 100px;
     overflow: auto;
@@ -472,6 +472,10 @@ main > .container > .section-padding:last-child {
 .faq-container:focus .fa-chevron-down{
     transform: rotateZ(180deg);
 }
+
+
+
+
 
 
 /********************************************************************/
