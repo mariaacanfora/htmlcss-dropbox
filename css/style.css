@@ -109,7 +109,6 @@ h5{
 /********************************************************************/
 nav > div{
     width: 50%;
-    margin-top: 5px;
     display: inline-block;
 }
 
@@ -173,11 +172,11 @@ header nav ul li a img{
     top: 100px;
 }
 
-.hero-section .details{
+.hero-text-padding{
     padding-bottom: 20px;
 }
 
-.hero-section .secondary-details{
+span.hero-text-padding{
     display: block;
     padding: 10px 0 30px;
 }
@@ -190,8 +189,9 @@ header nav ul li a img{
     width: 100%;
 }
 
-.hero-section .column-padding{
-    padding-right: 60px;
+.hero-section .column-box{
+    padding: 0 60px 0 0;
+    font-size: 16px;
 }
 
 .hero-section .row{
