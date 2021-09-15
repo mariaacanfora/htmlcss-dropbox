@@ -449,6 +449,37 @@ main > .container > .section-padding:last-child {
     margin-right: 20px;
 }
 
+/********************************************************************/
+/*  */
+/********************************************************************/
+.li-text{
+    width: 100%;
+    overflow: hidden;
+    height: 0;
+    transition: height .3s;
+}
+
+.fa-chevron-down{
+    transition: transform .3s;
+}
+
+.faq-container:focus .li-text{
+    display: block;
+    height: 100px;
+    overflow: auto;
+}
+
+.faq-container:focus .fa-chevron-down{
+    transform: rotateZ(180deg);
+}
+
+
+/********************************************************************/
+/*  */
+/********************************************************************/
+
+
+
 /* FOOTER */
 footer.bg-color{
     background-color: black;
