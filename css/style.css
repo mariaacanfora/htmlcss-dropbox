@@ -201,7 +201,7 @@ header nav ul li a img{
 /* MAIN */
 .section-padding{
     padding-top: 200px;
-    padding-bottom: 50px;
+/*     padding-bottom: 50px; */
 }
 
 .radio-btn{
@@ -214,7 +214,7 @@ header nav ul li a img{
 }
 
 .column-container{
-    padding-top: 40px;
+    padding-top: 50px;
 }
 
 .column-container.row{
@@ -287,8 +287,10 @@ header nav ul li a img{
     margin-bottom: 150px;
 }
 
-.section-border.section-margin{
+.column.section-margin{
     padding-bottom: 30px;
+    min-height: 200px;
+    padding-top: 0;
 }
 
 .column-box.column-text{
