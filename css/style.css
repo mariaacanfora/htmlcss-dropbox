@@ -311,10 +311,6 @@ header nav ul li a img{
     color: black;
 }
 
-/* .text-spacing{
-    word-spacing: -1px;
-} */
-
 .column-link{
     color: #0061FF;  
     display: inline-block;
@@ -384,9 +380,6 @@ header nav ul li a img{
     position: relative;
 }
 
-.square.border-square{
-    border: 5px solid #D0E9CD;
-}
 
 .img-square{
     width: 50%;
@@ -413,7 +406,7 @@ header nav ul li a img{
     width: 50%;
 }
 
-.text-container{
+.total-vw.row .column-box{
     padding: 50px;
 }
 
