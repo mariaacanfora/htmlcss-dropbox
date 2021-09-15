@@ -166,6 +166,7 @@ header nav ul li a img{
 
 .hero-section .icon{
     font-size: 35px;
+    height: 50px;
 }
 
 .hero-section .hero-img{
@@ -449,41 +450,6 @@ main > .container > .section-padding:last-child {
     margin-right: 20px;
 }
 
-/********************************************************************/
-/*  */
-/********************************************************************/
-.faq-text{
-    width: 100%;
-    overflow: hidden;
-    height: 0;
-    transition: height .3s;
-}
-
-.fa-chevron-down{
-    transition: transform .3s;
-}
-
-.faq-container:focus .faq-text{
-    display: block;
-    height: 100px;
-    overflow: auto;
-}
-
-.faq-container:focus .fa-chevron-down{
-    transform: rotateZ(180deg);
-}
-
-
-
-
-
-
-/********************************************************************/
-/*  */
-/********************************************************************/
-
-
-
 /* FOOTER */
 footer.bg-color{
     background-color: black;
@@ -551,4 +517,92 @@ footer .container-large hr{
     border: 0;
     text-align: center;
 }
+
+
+/********************************************************************/
+/*  */
+/********************************************************************/
+
+/* FAQ */
+.faq-text{
+    width: 100%;
+    overflow: hidden;
+    height: 0;
+    transition: height .3s;
+}
+
+.fa-chevron-down{
+    transition: transform .3s;
+}
+
+.faq-container:focus .faq-text{
+    display: block;
+    height: 100px;
+    overflow: auto;
+}
+
+.faq-container:focus .fa-chevron-down{
+    transform: rotateZ(180deg);
+}
+
+
+/********************************************************************/
+/*  */
+/********************************************************************/
+.faq-text{
+    width: 100%;
+    overflow: hidden;
+    height: 0;
+    transition: height .3s;
+}
+
+.fa-chevron-down{
+    transition: transform .3s;
+}
+
+.faq-container:focus .faq-text{
+    display: block;
+    height: 100px;
+    overflow: auto;
+}
+
+.faq-container:focus .fa-chevron-down{
+    transform: rotateZ(180deg);
+}
+
+
+/* HERO ARROW */
+.fa-arrow-down{
+    position: relative;
+    top: 0;
+
+    animation: arrow-up-down .7s infinite linear alternate; 
+}
+
+@keyframes arrow-up-down{
+    from{
+        top:0;
+    }
+
+    to{
+        top: 100%;
+    }
+}
+
+
+
+
+
+/********************************************************************/
+/*  */
+/********************************************************************/
+
+
+
+
+
+
+/********************************************************************/
+/*  */
+/********************************************************************/
 
