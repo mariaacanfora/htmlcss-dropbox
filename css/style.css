@@ -457,10 +457,14 @@ main > .container > .section-padding:last-child {
 
 .container:last-child ul li{
     border-top: 1px solid #F0F0F1;
-    border-bottom: 1px solid #F0F0F1;
+    /* border-bottom: 1px solid #F0F0F1; */
     padding: 25px 0;
-
 }
+
+.container:last-child ul li:last-child{
+    border-bottom: 1px solid #F0F0F1;
+}
+
 
 .container:last-child ul li h5{
     padding: 0;
