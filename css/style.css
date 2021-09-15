@@ -176,7 +176,7 @@ header nav ul li a img{
     padding-bottom: 20px;
 }
 
-span.hero-text-padding{
+.hero-section .row .col_3_9.column-box span.hero-text-padding{
     display: block;
     padding: 10px 0 30px;
 }
@@ -241,6 +241,7 @@ span.hero-text-padding{
 }
 
 .column-box span{
+    padding-top: 25px;
     display: block;
 }
 
@@ -259,10 +260,6 @@ span.hero-text-padding{
 .column-box a{
     display: inline-block;
     text-align: center;
-}
-
-.column-box span{
-    padding-top: 25px;
 }
 
 .little-border{
