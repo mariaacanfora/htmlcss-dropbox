@@ -548,31 +548,6 @@ footer .container-large hr{
 }
 
 
-/********************************************************************/
-/*  */
-/********************************************************************/
-.faq-text{
-    width: 100%;
-    overflow: hidden;
-    height: 0;
-    transition: height .3s;
-}
-
-.fa-chevron-down{
-    transition: transform .3s;
-}
-
-.faq-container:focus .faq-text{
-    display: block;
-    height: 100px;
-    overflow: auto;
-}
-
-.faq-container:focus .fa-chevron-down{
-    transform: rotateZ(180deg);
-}
-
-
 /* HERO ARROW */
 .fa-arrow-down{
     position: relative;
@@ -590,6 +565,66 @@ footer .container-large hr{
         top: 100%;
     }
 }
+
+/* BTN TRANSITION */
+header nav ul li a.btn{
+    transition: all .5s;
+    border-color: #0061FF;
+    color: #fff;
+    box-shadow: 0 0 40px 40px #0061FF inset, 0 0 0 0 #0061FF;
+    transition: all 150ms ease-in-out;
+}
+
+header nav ul li a.btn:hover {
+    box-shadow: 0 0 10px 0 #0061FF inset, 0 0 10px 4px #0061FF;
+}
+
+
+.hero-section .row .col_3_9.col_3_9.column-box a.btn:hover{
+    background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+    animation:slide-bg 5s linear infinite;
+}
+
+@keyframes slide-bg {
+    to {
+      background-position: 20vw;
+    }
+  }
+
+/* header nav ul li{
+    position: relative;
+}
+
+header nav ul li a.btn::before{
+    content: "";
+    height: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: height .5s;
+    background-color: teal;
+}
+
+header nav ul li a.btn:hover::before{
+    height: 100%;
+}
+
+ */
+
+
+/* header nav ul li a.btn:hover{
+    background-image: linear-gradient(45deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+    animation:slide-bg 5s linear infinite;
+ }
+
+ @keyframes slide-bg {
+    to {
+      background-position: 20vw;
+    }
+  }
+   */
 
 
 
