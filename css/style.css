@@ -411,6 +411,11 @@ header nav ul li a img{
     padding: 70px 0;
 }
 
+.total-vw.row .column-box{
+    height: 30vw;
+    overflow: auto;
+}
+
 .column-box.section-padding{
     padding-left: 0;
 }
